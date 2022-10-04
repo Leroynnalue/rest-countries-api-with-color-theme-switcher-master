@@ -19,5 +19,3 @@ let htmlContainer = document.querySelector('[ng-app]')
 darkToggler.addEventListener('click',() => {
     htmlContainer.classList.toggle('dark')
 })
-
-window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},500);};

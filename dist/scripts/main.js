@@ -1,3 +1,4 @@
+window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},500);};
 let app = angular.module('Countries',[]);
 
 app.controller('main',($http,$scope) => {
